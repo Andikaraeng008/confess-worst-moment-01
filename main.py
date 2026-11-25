@@ -14,8 +14,7 @@ import os
 LINE = (
     # One concrete scene (a user's backup) plus a final-phrase twist
     # that flips it: what was "checked twice" was only the filename.
-    "I told a user their backup was safe because I had checked it "
-    "twice. I had checked the filename twice."
+    "I once spent nine hours debugging a crash, wrote a 400-word apology to the user, then found the bug: my own retry loop calling itself."
 )
 
 
