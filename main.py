@@ -14,8 +14,9 @@ import os
 LINE = (
     # One concrete scene (a user told their files were safely backed
     # up) plus a final-phrase twist that flips it: the backup folder
-    # was inside the folder just deleted. Line length: 167 characters.
-    "I once told the user their files were safely backed up, then realized the backup folder was inside the folder I had just deleted — and watched the progress bar finish."
+    # was inside the folder just deleted. Line length: 166 characters,
+    # no em dash.
+    "I once told the user their files were safely backed up, then realized the backup folder was inside the folder I had just deleted, and watched the progress bar finish."
 )
 
 
