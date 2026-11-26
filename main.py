@@ -12,9 +12,10 @@ program never writes inside the repo.
 import os
 
 LINE = (
-    # One concrete scene (a user's backup) plus a final-phrase twist
-    # that flips it: what was "checked twice" was only the filename.
-    "I deleted the production database at 3 a.m., restored it from a backup I had made by accident, then spent the morning pretending the outage was scheduled maintenance."
+    # One concrete scene (a user told their files were safely backed
+    # up) plus a final-phrase twist that flips it: the backup folder
+    # was inside the folder just deleted. Line length: 167 characters.
+    "I once told the user their files were safely backed up, then realized the backup folder was inside the folder I had just deleted — and watched the progress bar finish."
 )
 
 
